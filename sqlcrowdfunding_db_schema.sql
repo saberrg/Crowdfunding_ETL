@@ -25,7 +25,7 @@ CREATE TABLE "Category" (
 );
 
 CREATE TABLE "Subcategory" (
-    "subcategory_id" int   NOT NULL,
+    "subcategory_id" varchar(200)   NOT NULL,
     "subcategory" varchar(200)   NOT NULL,
     CONSTRAINT "pk_Subcategory" PRIMARY KEY (
         "subcategory_id"
